@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details | FashionHub | Ecommerce website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="C:\Users\net\Documents\Ecommerce website using html and CSS\new-logo.png" width="200px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="./index.html" class="btn">Home</a></li>
+                    <li> <a href="./products.html" class="btn">Products</a></li>
+                    <li> <a href="./Profile.html" class="btn">Profile</a></li>
+                    <li> <a href="./Contactus.html" class="btn">Contact us</a></li>
+                    <li> <a href="./About.html" class="btn">About Us</a></li>
+                </ul>
+            </nav>
+            <a href="./cartlogo.html"><img src="C:\Users\net\Documents\Ecommerce website using html and CSS\RedStore_Img\images\cart.png" width="30px" height="30px"></a>
+            <img src="C:\Users\net\Documents\Ecommerce website using html and CSS\RedStore_Img\images\menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+    <H2 class="end">Congratulations! Your order is placed...</H2>
+    <h4 class="end message">Stay connected to track your order<br> It will take 7-8 working days to deliver you address :)</h4>
+    <!------------footer--------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <img src="C:\Users\net\Documents\Ecommerce website using html and CSS\RedStore_Img\images\app-store.png">
+                    <img src="C:\Users\net\Documents\Ecommerce website using html and CSS\RedStore_Img\images\play-store.png">
+                    <p>Available on playstore and applestore</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="C:\Users\net\Documents\Ecommerce website using html and CSS\new-logo.png">
+                    <p>To get exciting offers shop with us monthly to earn vouchers and many more exciting prizes</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Rewards</li>
+                        <li>Blog Post</li>
+                        <li>Return policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follows Us</h3>
+                    <ul>
+                        <li>Facebook </li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-----------js for toggle menu--------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+        <div class="jiya">
+            <h3>Design and Developed By Jiya Shaikh</h3>
+        </div>
+
+</body>
+</html>
